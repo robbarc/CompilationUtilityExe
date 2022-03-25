@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "CompilationUtilityExe",
-    platforms: [.macOS(.v10_15)],
+    platforms: [.macOS(.v10_15),.iOS(.v9)],
     products: [.executable(name: "CompilationUtilityExe", targets: ["CompilationUtilityExe"])],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
