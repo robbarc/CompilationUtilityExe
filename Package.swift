@@ -5,6 +5,8 @@ import PackageDescription
 
 let package = Package(
     name: "CompilationUtilityExe",
+    platforms: [.macOS(.v10_15)],
+    products: [.executable(name: "CompilationUtilityExe", targets: ["CompilationUtilityExe"])],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
